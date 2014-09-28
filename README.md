@@ -15,6 +15,7 @@ Assume that your code dir is at ~/foo/bar/* and source file of main.php and sort
 
 3) Build and run your app to make sure that nothing break.
 
+
 The sortHeader file would look for file match with postfix "*.h" and "*.m" and sort its header.
 
 To run an example, do php ~/iostool/main.php ~/iostool/testData/
