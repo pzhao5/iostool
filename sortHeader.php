@@ -13,7 +13,7 @@ class HeaderSorter {
 
     $workingFilePath = $filePath;
     if ($this->debugging) {
-      $workingFilePath = $filePath . "changed”;
+      $workingFilePath = $filePath . "changed";
       if (copy($filePath, $workingFilePath) === false) {
         echo "Fail to copy the file";
         return;
